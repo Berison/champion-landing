@@ -1,18 +1,22 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="uk" class="active">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Championplay</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 
-<body>
+<body class="active">
+  <div class="preloader active">
+    <img src="img/logo.png" alt="">
+  </div>
   <header class="header">
     <div class="container">
       <div class="header-inner">
@@ -25,10 +29,10 @@
           <li><a href="#">Pricing</a></li>
           <li><a href="#">Testimonials</a></li>
         </nav>
-        <div class="header-inner__btns">
+        <!-- <div class="header-inner__btns">
           <button type="button" class="btn-transparent btn-form">Вход</button>
           <button type="button" class="btn-fill btn-form">Регистрация</button>
-        </div>
+        </div> -->
         <div class="menu">
           <span></span><span></span><span></span><span></span>
         </div>
@@ -114,41 +118,98 @@
           </div>
         </div>
         <div class="info-inner__right">
-          <span>Победители</span>
-          <ul class="info-inner__list">
-            <li>
-              <div class="icon"></div>
-              <div class="info">
-                <strong>Petr*******@ gmail.com</strong>
-                <span>100 грн</span>
-                <p>Clover Riches</p>
+          <!--<span>Победители</span>
+          <div class="info-inner__list">
+             <div>
+              <strong>+380*******98</strong>
+              <span>выигрыш: 400 грн</span>
+              <p>ввод: 100 грн</p>
+            </div> 
+          </div>-->
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="slots-section">
+    <div class="container">
+      <div class="slots-inner">
+        <h2>Слоты</h2>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="swiper-slide__head">
+                <strong>Capitan Marvel</strong>
+                <span>new</span>
               </div>
-            </li>
-            <li>
-              <div class="icon"></div>
-              <div class="info">
-                <strong>Petr*******@ gmail.com</strong>
-                <span>100 грн</span>
-                <p>Clover Riches</p>
+              <div class="swiper-slide__image">
+                <img src="img/slot-1.jpg" alt="">
               </div>
-            </li>
-            <li>
-              <div class="icon"></div>
-              <div class="info">
-                <strong>Petr*******@ gmail.com</strong>
-                <span>100 грн</span>
-                <p>Clover Riches</p>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-slide__head">
+                <strong>Capitan Marvel</strong>
+                <span>new</span>
               </div>
-            </li>
-            <li>
-              <div class="icon"></div>
-              <div class="info">
-                <strong>Petr*******@ gmail.com</strong>
-                <span>100 грн</span>
-                <p>Clover Riches</p>
+              <div class="swiper-slide__image">
+                <img src="img/slot-1.jpg" alt="">
               </div>
-            </li>
-          </ul>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-slide__head">
+                <strong>Capitan Marvel</strong>
+                <span>new</span>
+              </div>
+              <div class="swiper-slide__image">
+                <img src="img/slot-1.jpg" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-slide__head">
+                <strong>Capitan Marvel</strong>
+                <span>new</span>
+              </div>
+              <div class="swiper-slide__image">
+                <img src="img/slot-1.jpg" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-slide__head">
+                <strong>Capitan Marvel</strong>
+                <span>new</span>
+              </div>
+              <div class="swiper-slide__image">
+                <img src="img/slot-1.jpg" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-slide__head">
+                <strong>Capitan Marvel</strong>
+                <span>new</span>
+              </div>
+              <div class="swiper-slide__image">
+                <img src="img/slot-1.jpg" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-slide__head">
+                <strong>Capitan Marvel</strong>
+                <span>new</span>
+              </div>
+              <div class="swiper-slide__image">
+                <img src="img/slot-1.jpg" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-slide__head">
+                <strong>Capitan Marvel</strong>
+                <span>new</span>
+              </div>
+              <div class="swiper-slide__image">
+                <img src="img/slot-1.jpg" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
         </div>
       </div>
     </div>
@@ -183,10 +244,10 @@
       <li><a href="#">Pricing</a></li>
       <li><a href="#">Testimonials</a></li>
     </nav>
-    <div class="menu-burger__btns">
+    <!-- <div class="menu-burger__btns">
       <button type="button" class="btn-transparent btn-form">Вход</button>
       <button type="button" class="btn-fill btn-form">Регистрация</button>
-    </div>
+    </div> -->
     <ul class="menu-burger__social">
       <li><a href="#" target="_blank"><img src="img/viber.svg" alt=""></a></li>
       <li><a href="#" target="_blank"><img src="img/instagram.svg" alt=""></a></li>
@@ -197,13 +258,12 @@
     <img src="img/popup-bg.jpg" alt="">
     <div class="popup-form__inner">
       <img src="img/image-popup.jpg" alt="">
-      <div class="close"><span></span><span></span></div>
       <div class="popup-form__info">
         <strong>Быстрая регистрация/вход</strong>
-        <form action="#" onsubmit="return false">
-          <input type="email" name="email" placeholder="E- mail" required>
-          <input type="password" placeholder="Пароль" required>
-          <button type="submit" class="btn-submit">Регистрация</button>
+        <form action="#">
+          <input type="tel" name="tel" placeholder="Телефон" maxlength="14" required>
+          <!-- <input type="password" placeholder="Пароль" required> -->
+          <button type="submit" class="btn-submit">Отправить</button>
           <label>
             <input type="checkbox" checked>
             <p>Я согласен с Правилами и условиями и мне 18+</p>
@@ -212,8 +272,16 @@
       </div>
     </div>
   </div>
+  <div class="popup-form-new">
+    <div class="btns">
+      <button type="button" class="btn btn-yes">У меня есть код</button>
+      <button type="button" class="btn btn-no">У меня нет кода</button>
+    </div>
+  </div>
   <div class="overlay"></div>
+  <script src="js/swiper-bundle.min.js"></script>
   <script src="js/scripts.js"></script>
+
 </body>
 
 </html>
